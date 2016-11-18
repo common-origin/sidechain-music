@@ -1,0 +1,47 @@
+// Override Bootstrap variables in this file, e.g.
+
+// Header Styles 
+
+#header .navbar {
+	margin-bottom:0;
+	text-transform:uppercase;
+}
+
+.navbar {
+	border:none;
+	border-radius:0;
+}
+.home-jumbo {
+    border-radius: 0 !important;
+    color: #fff;
+    background-color: transparent;  
+    margin-bottom:0;
+    min-height: 750px;
+    padding-top:100px;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+.home-jumbo a {
+	color:#3B84ED;
+}
+.background-contain {
+    background-image: url('/images/head-img.jpg');
+    background-size:cover;
+}
+
+// Home Styles
+.stories {
+	padding-top:30px;
+}
+.stories img {
+	width:100%;
+}
+.story-btn {
+	
+}
+
+// Blog post 
+
+.post p {
+	padding-top:20px;
+}
