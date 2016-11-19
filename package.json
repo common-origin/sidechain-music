@@ -16,9 +16,7 @@
     "moment": "^2.10.6",
     "mongodb": "^2.2.11",
     "node-sass": "^3.3.2",
-    "node-sass-middleware": "^0.9.7"
-  },
-  "devDependencies": {
+    "node-sass-middleware": "^0.9.7",
     "eslint": "^2.12.0",
     "eslint-config-keystone": "^2.3.1",
     "eslint-plugin-react": "^5.1.1",
