@@ -6,7 +6,7 @@ require('dotenv').config();
 var keystone = require('keystone');
 var handlebars = require('express-handlebars');
 
-//// Initialise Keystone with your project's configuration.
+// Initialise Keystone with your project's configuration.
 // See http://keystonejs.com/guide/config for available options
 // and documentation.
 
@@ -34,6 +34,11 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'User',
+});
+
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+    console.log(`Our app is running on port ${ PORT }`);
 });
 
 // Load your project's Models
